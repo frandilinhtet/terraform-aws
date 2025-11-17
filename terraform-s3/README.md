@@ -23,5 +23,6 @@ This Terraform project creates an S3 bucket configured for **static website host
 
 Clone the repo:
 
+```sh
 git clone https://github.com/frandilinhtet/terraform-aws.git
 cd terraform-s3
