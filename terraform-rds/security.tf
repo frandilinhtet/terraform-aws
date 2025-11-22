@@ -25,7 +25,7 @@ resource "aws_security_group" "bastion_sec_gp" {
 
 resource "aws_security_group" "rds_sec_gp" {
   name        = var.rds_sec
-  description = "Allow RDS from anywhere"
+  description = "Allow RDS from only Bastion Host"
   vpc_id      = aws_vpc.vpc.id
 
   ingress {
