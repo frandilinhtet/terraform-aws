@@ -1,0 +1,14 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+.terraform/
+.terraform.lock.hcl
+
+# Sensitive variable files
+*.auto.tfvars
+
+bastion-key.pem
+bastion-key.pub
